@@ -33,4 +33,3 @@ To test
   ```bash
   python ./UTBM-COV-RECS.py
   ```
-Then you can use the differents endpoints find here : http://localhost:5000/api/ui/
