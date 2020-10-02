@@ -18,11 +18,13 @@ you have to use get_data() to get the data cleaned and ready to be processed
 
 The recommendation system use an SVM model to predict the correct article.
 You have to use def predict(X_train_tfidf, to_search) with X_train_tfidf, the tf-idf model and to_search the keywords.
+The variable to_search is an array, so you can pass the term you want.
 
 ## Save the recommendations
 
 To save the article into the correspondant category folder you have to use verif_folders(folders) to test if the arborescence is correct
 then save_article(data) to save the articles.
+The variable folders is an array, so you can pass what you want.
 ## Usage
 to install the required library
 ```bash
